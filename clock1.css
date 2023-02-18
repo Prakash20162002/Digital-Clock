@@ -24,10 +24,10 @@ body{
 }
 .container
 {
-    height: 100px;
+    height: 113px;
     width: 100px;
     background-color: #0000007d;
-    color:#fff;
+    color:grey;
     border-radius:5px;
     display: flex;
     flex-direction: column;
@@ -36,6 +36,7 @@ body{
 .text
 {
     background-color: lightblue;
+    color: black;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -55,11 +56,19 @@ span#m
     font-size: 40px;
     margin-top: 18px;
 }
+
 span#s
 {
     font-size: 40px;
     margin-top: 18px;
 }
+/* span#dateandtime
+{
+    font-size: 100px;
+    color: black;
+    
+} */
+
 span#ses{
     font-size: 25px;
     color: white;
@@ -69,8 +78,13 @@ span#ses{
 }
 .h1
 {
+    margin-top: 50%;
     font-size: 70%;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color:white;
+}
+#Date
+{
+    color: white;
 }
