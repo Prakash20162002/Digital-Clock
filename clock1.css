@@ -62,12 +62,6 @@ span#s
     font-size: 40px;
     margin-top: 18px;
 }
-/* span#dateandtime
-{
-    font-size: 100px;
-    color: black;
-    
-} */
 
 span#ses{
     font-size: 25px;
@@ -84,7 +78,15 @@ span#ses{
     text-align: center;
     color:white;
 }
-#Date
+#date
 {
-    color: white;
+
+    background-color: antiquewhite;
+    color:white;
+    clear: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60px;
+    background-color: #0000007d;
+
 }

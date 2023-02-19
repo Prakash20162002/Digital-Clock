@@ -40,26 +40,26 @@ function Showtime() {
 }
 Showtime();
 
-// function time() {
-//     date = new Date();
-//     let date = date.getDate()
-//     let year = date.getFullYear();
-//     let months = date.getMonth();
-//     let day = date.getDay();
+function time() {
+    let date = new Date();
+    let Dat = date.getDate()
+    let year = date.getFullYear();
+    let months = date.getMonth();
+    let day = date.getDay();
 
 
 
-//     var daysname = ["Saunday", "Monday", "Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"];
-//     var monthsname = ["January", "February", "March", "April", "May", "June", "July", "August", "Septembar", "Octobar", "Novembar", "December"];
+    var daysname = ["Saunday", "Monday", "Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"];
+    var monthsname = ["January", "February", "March", "April", "May", "June", "July", "August", "Septembar", "Octobar", "Novembar", "December"];
 
-//     date = (date < 10) ? "0" + date : date;
+    date = (date < 10) ? "0" + date : date;
 
 
-//     dateandtime.innerHTML = daysname[day] + "," + monthsname[months] + date + "," + year;
+    dateandtime.innerHTML = daysname[day] + "," + monthsname[months] + Dat + "," + year;
 
-//     setInterval(time, 10)
+    setInterval(time, 1040)
 
-// }
-// time();
+}
+time();
 
 
