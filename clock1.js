@@ -55,7 +55,7 @@ function time() {
     date = (date < 10) ? "0" + date : date;
 
 
-    dateandtime.innerHTML = daysname[day] + "," + monthsname[months] + Dat + "," + year;
+    dateandtime.innerHTML = daysname[day] + " , " + monthsname[months] + Dat + " , " + year;
 
     setInterval(time, 1040)
 
